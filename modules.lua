@@ -1,4 +1,3 @@
--- modules.lua - Doom nvim module selection
 --
 -- modules.lua controls what Doom nvim plugins modules are enabled and
 -- what features are being used.
@@ -26,27 +25,27 @@ return {
     "indentlines", -- Show indent lines with special characters
     "range_highlight", -- Highlight selected range from commands
     "todo_comments", -- Highlight TODO: comments
-    -- "doom_themes",     -- Extra themes for doom
+    "doom_themes", -- Extra themes for doom
 
     -- UI Components
     "lsp_progress", -- Check status of LSP loading
     "tabline", -- Tab bar buffer switcher
     "dashboard", -- A pretty dashboard upon opening
-    -- "trouble",         -- A pretty diagnostic viewer
+    "trouble", -- A pretty diagnostic viewer
     "statusline", -- A pretty status line at the bottom of the buffer
     -- "minimap",         -- Shows current position in document
-    -- "terminal",        -- Integrated terminal in neovim
+    "terminal", -- Integrated terminal in neovim
     -- "symbols",         -- Navigate between code symbols using telescope
     -- "ranger",          -- File explorer in neovim (TODO: Test)
     -- "restclient",      -- Test HTTP requests from neovim (TODO: Test)
     -- "show_registers",  -- Show and navigate between registers
 
     -- Tools
-    -- "dap",             -- Debug code through neovim
+    "dap", -- Debug code through neovim
     "repl", -- Interactive REPL in neovim
     "explorer", -- An enhanced filetree explorer
     -- "firenvim",        -- Embed neovim in your browser
-    -- "lazygit",         -- Lazy git integration
+    "lazygit", -- Lazy git integration
     -- "neogit",          -- A git client for neovim
     "neorg", -- Organise your life
     "projects", -- Quickly switch between projects
@@ -58,7 +57,7 @@ return {
   langs = {
     -- Scripts
     "lua",
-    "python",
+    -- "python",
     -- "bash",
     -- "fish",
     -- "gdscript",
@@ -79,18 +78,19 @@ return {
     -- "cc",
     -- "ocaml",
     -- "haskell",
+    "go",
 
     -- JIT
     -- "c_sharp",
     -- "kotlin",
     -- "java",
 
-    -- "json",
-    -- "yaml",
+    "json",
+    "yaml",
     -- "toml",
-    -- "markdown",
+    "markdown",
     -- "terraform",       -- Terraform / hcl files support
-    -- "dockerfile",
+    "dockerfile",
     -- "nix",             -- Nix declarations
   },
 }

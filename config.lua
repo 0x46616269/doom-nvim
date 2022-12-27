@@ -7,6 +7,14 @@
 -- ADDING A PACKAGE
 --
 -- doom.use_package("EdenEast/nightfox.nvim", "sainnhe/sonokai")
+doom.use_package({
+  "ray-x/go.nvim",
+  config = function()
+    require("go").setup()
+  end,
+}, {
+  "ray-x/guihua.lua",
+})
 -- doom.use_package({
 --   "ur4ltz/surround.nvim",
 --   config = function()
